@@ -1,0 +1,524 @@
+@CHARSET "UTF-8";
+body{ 
+	background-color: #B8D7FF;
+	font-family: 'helvetica';
+}
+
+* { margin: 0px; padding: 0px;}
+
+a:link {text-decoration: none; color: #0C668B}
+a:visited {text-decoration: none; color: #0C668B}
+a:active {text-decoration: none; color: #00CCFF}
+a:hover {text-decoration: underline; color: #00CCFF}
+
+
+/*
+<--------------------------------------
+.STANDARD
+-------------------------------------->
+*/
+.hidden{
+	display:none;
+}
+
+h1{
+	color: #222;
+	font-family: 'helvetica', 'arial';
+	font-size: 25px;
+	text-align: left;
+	padding-left:20px;
+	padding-top:15px;
+}
+
+h2{
+	color: #222;
+	font-family: 'helvetica', 'arial';
+	font-size: 20px;
+	background-position: center;
+}
+
+option {
+	padding:0.5em
+}
+
+option.odd {
+	color:#5f3;
+}
+
+ul {
+	list-style:none;
+}
+/*
+ * 
+ *  Standard Form
+ * 
+ */
+
+select {
+	background: #56b0ff;
+	margin-right:10px;
+	//opacity: 0;
+	padding:5px 0px 5px 0px;
+	height:33px;
+	text-align:center;
+	line-height:2px;
+	font-size:1em;
+	border:2px solid #0088FF;
+    -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
+	font-family: 'helvetica', 'arial';
+	color: #fff; 
+	cursor: pointer;
+	-moz-box-shadow: 0 0 5px #1F5C9F; box-shadow: 0 0 5px #1F5C9F; -webkit-box-shadow: 0 0 5px #1F5C9F;
+}
+input[type="submit"] {
+	background: #56b0ff;
+//	background-image:url("../img/button.png"); 
+//	background-position:center;
+	padding:5px 20px 5px 20px;
+	font-size:1em;
+	border:2px solid #0088FF;
+    -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
+	font-family: 'helvetica', 'arial';
+	color: #fff; 
+	cursor: pointer;
+	-moz-box-shadow: 0 0 5px #1F5C9F; box-shadow: 0 0 5px #1F5C9F; -webkit-box-shadow: 0 0 5px #1F5C9F;
+	}
+
+input[type="text"], input[type="password"] {
+	width:200px;
+	height:20px;
+	border:2px solid #0088FF;
+    -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;
+	font-family: 'helvetica', 'arial';
+	font-size: 1.1em;
+	padding:5px;
+	-moz-box-shadow: 0 0 5px #1F5C9F; box-shadow: 0 0 5px #1F5C9F; -webkit-box-shadow: 0 0 5px #1F5C9F;
+}
+
+/*
+<--------------------------------------
+--- CONTAINER ---
+-------------------------------------->
+*/
+
+#container{
+	margin:0px auto;
+	width:960px;
+	padding:0px 5px 5px 5px;
+	background-color:#1F3981;
+	
+//	background-image:url('../img/bg_green.png');
+	height:100%;
+	clear:both;
+    -moz-border-radius: 0px 0px 20px 20px; -webkit-border-radius: 0px 0px 20px 20px; border-radius: 0px 0px 20px 20px;
+    -moz-box-shadow: 0px 0px 3px #000; -webkit-box-shadow: 0px 0px 3px #000; box-shadow: 0px 0px 3px #000;
+	}
+
+
+/*
+<--------------------------------------
+--- HEADER ---
+-------------------------------------->
+*/
+#header {
+	background-image:url('../img/header_yellow.png');
+	width:960px;
+	height:60px;
+	clear:both;
+}
+
+/*
+<--------------------------------------
+.MENU
+-------------------------------------->
+*/
+#menuStyle {
+	width:140px;	
+	margin:5px;
+	padding:10px;
+
+	float:left;
+	possision:relative;
+
+	background-color:white;
+	//text-shadow: 1px 1px 1px #000;
+    //font-weight:bold;
+    -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;
+	-moz-box-shadow: 0px 0px 5px #0ff; -webkit-box-shadow: 0px 0px 5px #0ff; box-shadow: 0px 0px 5px #0ff;	
+}
+	#menuStyle h1 {
+		margin:0px 0px 0px -10px;
+		padding:0px;
+		font-size:15px;
+		text-align:left;
+		color:#0088FF;
+		cursor:pointer;
+		}
+	#menuStyle .gotChilds {
+		position:relative;
+		bottom:1px;
+		left:-5px;
+		}
+		
+	#menuStyle ul {	
+		list-style:none;
+		margin-bottom:5px;
+		margin-left:5px;
+		}
+	#menuStyle li {
+		margin:3px;
+		}
+	
+
+/*
+<--------------------------------------
+.Main container
+-------------------------------------->
+*/
+
+	.mainContainerObject {
+		width:740px;
+		padding:20px;
+		margin:5px;	
+		float:right;
+		text-align:left;	
+		background-color:#ffffff;
+		border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+		-moz-box-shadow: 0px 0px 5px #0ff; -webkit-box-shadow: 0px 0px 5px #0ff; box-shadow: 0px 0px 5px #0ff;	
+	}
+	
+	.mainContainerObjectLogin {
+		position:relative;
+		width:740px;
+		padding:20px;
+		margin:5px;	
+		float:right;
+		text-align:left;	
+		background-color:#ffffff;
+		border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+		-moz-box-shadow: 0px 0px 5px #0ff; -webkit-box-shadow: 0px 0px 5px #0ff; box-shadow: 0px 0px 5px #0ff;	
+	}
+		#mainContainer .mainContainerObject .close {
+			position:relative;
+			cursor:pointer;
+			top:-15px;
+			left:738px;
+			}
+		#mainContainer .mainContainerObject p {
+			margin-top:-20px;
+			margin-bottom:20px;
+			}
+			
+		#mainContainer .mainContainerObject h1{
+			color: #222;
+			font-family: 'helvetica', 'arial';
+			font-size: 25px;
+			margin-top:-20px;
+			margin-bottom:5px;
+			padding-left:0px;
+			padding-top:0px;	
+			text-align: left;
+		}
+		
+		#mainContainer .mainContainerObject lable {
+			font-size:larger;
+			}	
+			
+		#mainContainer .mainContainerObject dd {
+			padding-top:5px;
+			//padding-left:10px;
+			//padding-bottom:10px;
+			}
+/*
+<--------------------------------------
+.Flowing
+-------------------------------------->
+*/
+#flowing {
+	width:730px;
+	padding:20px;
+	margin:5px;	
+	float:right;
+	text-align:left;	
+	background-color:#ffffff;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	-moz-box-shadow: 0px 0px 5px #0ff; -webkit-box-shadow: 0px 0px 5px #0ff; box-shadow: 0px 0px 5px #0ff;	
+}
+
+/*
+<--------------------------------------
+.Event
+-------------------------------------->
+*/
+#event {
+	width:730px;
+	padding:20px;
+	margin:5px;	
+	float:right;
+	text-align:left;	
+
+	background-color:#ffffff;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	-moz-box-shadow: 0px 0px 5px #0ff; -webkit-box-shadow: 0px 0px 5px #0ff; box-shadow: 0px 0px 5px #0ff;	
+}
+
+	#event .textFlow {
+		width:400px;
+		
+	}
+	
+		#event #declarationEvent .firstColumn {
+			border-bottom:1px solid ;
+			color:blue;
+			font-size:1.2em;
+			font-weight:bold;
+			
+			border-collapse:collapse; 
+		}
+	
+/*
+ * 
+ *  FORMULÄR
+ * 
+ */	
+.lineBreak {
+	height:2px;
+	clear:both;
+	padding-top:10px;
+	border-bottom:2px solid lightblue;
+	margin:10px -10px 10px -10px;
+}
+.denialMessage {
+	left:10px;
+	top:8px;
+	position:relative;
+	vertical-align:top;
+	display:inline-block;
+}
+
+.mainContainerObject form div.radioContainer {
+	float:left;
+}
+	.mainContainerObject form div.radioContainer h2 {
+		float:left;
+		}
+	.mainContainerObject form div.radioContainer span.informationMessage {
+		color:red;
+		position:relative;
+		display:block;
+		top:2px;
+		left:7px;
+	}		
+	.mainContainerObject form div.radioContainer ul {
+		float:left;
+	}
+		.mainContainerObject form div.radioContainer ul li label.radioLabel {
+			vertical-align:top;
+			display:inline-block;
+	
+			color:#fff;
+			font-family: 'helvetica', 'arial';
+			font-size: 1.1em;
+			cursor:pointer;
+			
+			background: #B9DCFF;
+			width:140px;
+			padding:5px 5px 2px 8px;
+			margin:5px;
+			border:2px solid #0088FF;
+			border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+			-moz-box-shadow: 0px 0px 2px #1F5C9F; -webkit-box-shadow: 0px 0px 2px #1F5C9F; box-shadow: 0px 0px 2px #1F5C9F;				
+		}
+			.mainContainerObject form div.radioContainer ul li div.radioButtonText {
+				position:relative;
+				display:inline-block;
+				width:550px;
+				margin-top:5px;
+			}
+				.mainContainerObject form div.radioContainer ul li label.radioLabel input[type=radio] {
+					float:left;
+					cursor:pointer;
+					position:relative;
+					top:2px;
+					left:-4px;
+				}
+
+.textFlow  {
+	float:left;
+	width:625px;
+	max-width:625px;
+	border:2px solid #0088FF;
+    -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;
+	font-family: 'helvetica', 'arial';
+	font-size:1em;
+	padding:5px;
+	margin-bottom:10px;
+	height:100px;
+	-moz-box-shadow: 0 0 5px #1F5C9F; box-shadow: 0 0 5px #1F5C9F; -webkit-box-shadow: 0 0 5px #1F5C9F;
+}
+
+.securityContainer {
+	position:relative;
+	left:7px;
+	top:2px;
+	float:right;
+}
+	.securityContainer ul {
+		list-style:none;
+	}
+		.securityContainer li {
+			padding-bottom:2px;
+		}
+
+				.securityContainer ul li label {
+					background: #B9DCFF;
+					border:2px solid #0088FF;
+					padding:5px 5px 1px 8px;
+					margin:5px;
+					width:70px;
+					border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+					-moz-box-shadow: 0px 0px 2px #1F5C9F; -webkit-box-shadow: 0px 0px 2px #1F5C9F; box-shadow: 0px 0px 2px #1F5C9F;				
+					display:block;
+					cursor:pointer;
+					color:#fff;
+					font-family: 'helvetica', 'arial';
+					font-size: 1.1em;
+				}
+				.securityContainer ul li label input[type=radio] {
+					float:left;
+					cursor:pointer;
+					position:relative;
+					top:2px;
+					left:-4px;
+				}
+				
+.inputContainer {
+	
+}
+
+.inputContainer .left {
+	width:50%;
+	float:left;
+}
+.inputContainer .right {
+	width:50%;
+	float:right;
+}
+
+html body div#container div#mainContainer div#RegisterContainer.mainContainerObject form dl {
+	list-style:none;	
+	
+}			
+				
+#RegisterContainer label {
+	//float:left;
+	//display:block;
+}				
+				
+#RegisterContainer dd {
+	//float:left;
+	//display:inline-block;
+	//clear: left;
+
+}
+.mainContainerObject form dl dd span.denialMessage {
+	//width:150px;
+	//display:block;
+	color:red;
+}
+#RegisterContainer dt {
+	//float:left;
+	//display:block;
+	//width:200px;
+
+}
+
+	/*
+<--------------------------------------
+--- Lightbox ---
+-------------------------------------->
+*/
+#lightbox {
+	position:fixed;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;
+	opacity:0.5;
+	background-color:white;
+}
+
+#popup {
+	border:2px solid black;
+	z-index:9999;
+	margin:20px;
+	padding:20px;
+	position:fixed;	
+	width:400px;
+	height:200px;
+	background:white;	
+	
+}
+
+.welcomeText {
+	padding-top:20px;
+	
+}
+
+.lightbox #popup h1 {
+	
+	
+}
+.lightbox #popup p {
+	
+	
+}
+
+
+	/*
+<--------------------------------------
+--- Login form ---
+-------------------------------------->
+*/
+
+#loginForm ul li {
+	list-style:none;
+	float: left;
+	margin-right:20px;
+}
+#loginForm label {
+	position:relative;
+	top:7px;
+	left:10px;
+	font-size:1em;
+}
+
+#logoutForm ul li{
+	list-style:none;
+	float: left;
+}
+
+#logout {
+	position:relative;
+	top:-15px;
+	left:845px;
+	width:0px;
+}
+	#logout input[type="submit"] {
+		opacity:0.9;
+		background: #8DC5FF;
+		padding:15px 20px 2px 20px;
+		font-size:1em;
+		border:2px solid #044488;
+		}
+/*
+<--------------------------------------
+--- BOTTOM ---
+-------------------------------------->
+*/
+#bottom {
+	background-image:url('../img/bottom_green.png');
+	width:960px;
+	height:55px;
+	clear:both;
+}
