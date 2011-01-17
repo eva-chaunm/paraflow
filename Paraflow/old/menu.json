@@ -1,0 +1,67 @@
+{
+"menu": [
+		{
+		"lable": "Happyning",
+		"link" : "?p=happyning",
+		"child":""
+		},
+		{
+		"lable": "Flowing",
+		"link" : "?p=flowing",
+		"child":""
+		},
+		{
+			"lable": "Event",
+			"link" : "?p=event",
+			"child" : ""
+		},
+		{
+			"lable": "Grupper",
+			"link" : "?p=groups",
+			"child" : ""
+		},
+		{
+			"lable": "Profil",
+			"link" : "?p=profile",
+			"child" : ""
+		},
+		{
+		"lable": "Inställningar",
+		"link" : "?fixus",
+		"child" : [
+					{
+					"lable": "Ownlandia",
+					"link" : "?p=fixus&i=ownland"
+					},
+					{
+					"lable": "Homelandia",
+					"link" : "?p=fixus&i=homeland"
+					},
+					{
+					"lable": "Friendlandia",
+					"link" : "?p=fixus&i=friendlandia"
+					},
+					{
+					"lable": "Worldlandia",
+					"link" : "?p=fixus&i=worldlandia"
+					}
+				]
+		},
+		{
+			"lable": "Information",
+			"link" : "?p=information",
+			"child" : ""
+		},
+		{
+			"lable": "Registrera",
+			"link" : "?p=register",
+			"child" : "",
+			"class" : "register"
+		},
+		{
+			"lable": "Kontakta",
+			"link" : "?p=kontakta",
+			"child" : ""
+		}
+		]
+}

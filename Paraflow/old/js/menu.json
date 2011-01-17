@@ -1,0 +1,159 @@
+{
+"menu": [
+		{
+		"linkname": "Nyheter",
+		"url" : "?p=nyheter",
+		"child":""
+		},
+		{
+		"linkname": "Human Design",
+		"url" : "",
+		"child":[
+					{
+					"linkname": "Introduktion",
+					"url" : "?p=hd&i=introduction",
+					"child" : ""
+					},
+					{
+					"linkname": "Typer",
+					"url" : "",
+					"child" : [
+								{
+								"linkname": "Generator",
+								"url" : "?p=hd&i=generator",
+								"child" : ""
+								},
+								{
+								"linkname": "Projektor",
+								"url" : "?p=hd&i=prjeketor",
+								"child" : ""
+								},
+								{
+								"linkname": "Manifestator",
+								"url" : "?p=hd&i=manifestor",
+								"child" : ""
+								},
+								{
+								"linkname": "Reflektor",
+								"url" : "?p=hd&i=reflektor",
+								"child" : ""
+								}
+							]
+					},
+					{
+					"linkname": "Profiler",
+					"url" : "?p=hd&i=profiler",
+					"child" :""
+					},
+					{
+					"linkname": "Auktoriteter",
+					"url" : "?p=hd&i=auktoriteter",
+					"child" :""
+					}
+				]
+		},
+		{
+		"linkname": "Livsstil",
+		"url" : "?startpage",
+		"child" : [
+					{
+					"linkname": "Mat",
+					"url" : "?p=receipes&i=receipes"
+					},
+					{
+					"linkname": "Relationer",
+					"url" : "?p=livsstil&i=karlek"
+					},
+					{
+					"linkname": "Underhållning",
+					"url" : "?p=livsstil&i=underhallning"
+					},
+					{
+					"linkname": "Träning",
+					"url" : "?p=livsstil&i=forkroppsligande"
+					},
+					{
+					"linkname": "Äventyr",
+					"url" : "?p=livsstil&i=aventyr"
+					},
+					{
+					"linkname": "Plattser",
+					"url" : "?p=livsstil&i=platser"
+					}
+				]
+		},
+		{
+		"linkname": "Pågående",
+		"url" : "?startpage",
+		"child" : [
+					{
+					"linkname": "Världsligt",
+					"url" : "?p=pagande&i=varldsligt"
+					},
+					{
+					"linkname": "Landsligt",
+					"url" : "?p=livsstil&i=landsligt"
+					},
+					{
+					"linkname": "Hembygden",
+					"url" : "?p=livsstil&i=hembygden"
+					},
+					{
+					"linkname": "Familjärt",
+					"url" : "?p=livsstil&i=familjart"
+					},
+					{
+					"linkname": "Individuellt",
+					"url" : "?p=livsstil&i=individuellt"
+					}
+				]
+		},
+		{
+		"linkname": "Verkstaden",
+		"url" : "?startpage",
+		"child" : [
+					{
+					"linkname": "Internet",
+					"url" : "?p=pagande&i=varldsligt"
+					},
+					{
+					"linkname": "Mjukvaro",
+					"url" : "?p=livsstil&i=landsligt"
+					},
+					{
+					"linkname": "Hårdvaro",
+					"url" : "?p=livsstil&i=hembygden"
+					},
+					{
+					"linkname": "Möbler",
+					"url" : "?p=livsstil&i=familjart"
+					},
+					{
+					"linkname": "Byggnader",
+					"url" : "?p=livsstil&i=individuellt"
+					}
+				]
+		},
+		{
+			"linkname": "Samhörighet",
+			"url" : "?p=samhorighet",
+			"child" : ""
+		},
+		{
+			"linkname": "Information",
+			"url" : "?p=information",
+			"child" : ""
+		},
+		{
+			"linkname": "Registrera",
+			"url" : "?p=register",
+			"child" : "",
+			"class" : "register"
+		},
+		{
+			"linkname": "Kontakta",
+			"url" : "?p=kontakta",
+			"child" : ""
+		}
+		]
+}
